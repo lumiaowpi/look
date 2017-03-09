@@ -688,4 +688,10 @@ view: scan_aggr {
     type: count
     drill_fields: [sandbox_name]
   }
+
+
+  measure: sumByte {
+    type: sum
+    drill_fields: [bytes_uploaded]
+  }
 }
