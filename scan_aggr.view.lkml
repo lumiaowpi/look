@@ -694,4 +694,9 @@ view: scan_aggr {
     type: sum
     drill_fields: [bytes_uploaded]
   }
+
+  measure: sumFlaws {
+    type: sum
+    drill_fields: [num_new_flaws]
+  }
 }
